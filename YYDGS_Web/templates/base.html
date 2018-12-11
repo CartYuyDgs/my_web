@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<ul>
+    <li><a href="/">首页</a></li>
+    <li><a href="{% url 'goode' %}">文采经济</a></li>
+    <li><a href="{% url 'humanf' %}">人文风采</a></li>
+    <li><a href="{% url 'intell' %}">智能之花</a></li>
+    <li><a href="{% url 'mathe' %}">数学探索</a></li>
+    <li><a href="{% url 'novel' %}">小说风采</a></li>
+    <li><a href="{% url 'webs' %}">web乐园</a></li>
+</ul>
+{% block content %}
+
+{% endblock %}
+</body>
+</html>
